@@ -12,6 +12,9 @@
 		E225000E2810EFF4004F2A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E225000D2810EFF4004F2A75 /* Assets.xcassets */; };
 		E22500112810EFF4004F2A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22500102810EFF4004F2A75 /* Preview Assets.xcassets */; };
 		E225001D2810F0AB004F2A75 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225001C2810F0AB004F2A75 /* ContentModel.swift */; };
+		E24909B22810F37700698C1A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E24909B02810F37700698C1A /* data.json */; };
+		E24909B32810F37700698C1A /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = E24909B12810F37700698C1A /* style.html */; };
+		E24909B52810F54300698C1A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24909B42810F54300698C1A /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		E225000D2810EFF4004F2A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22500102810EFF4004F2A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E225001C2810F0AB004F2A75 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		E24909B02810F37700698C1A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E24909B12810F37700698C1A /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
+		E24909B42810F54300698C1A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		E22500192810F059004F2A75 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E24909B42810F54300698C1A /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +98,8 @@
 		E225001A2810F05F004F2A75 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E24909B02810F37700698C1A /* data.json */,
+				E24909B12810F37700698C1A /* style.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22500112810EFF4004F2A75 /* Preview Assets.xcassets in Resources */,
+				E24909B22810F37700698C1A /* data.json in Resources */,
+				E24909B32810F37700698C1A /* style.html in Resources */,
 				E225000E2810EFF4004F2A75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +194,7 @@
 				E225000C2810EFF1004F2A75 /* HomeView.swift in Sources */,
 				E225000A2810EFF1004F2A75 /* LearningApp.swift in Sources */,
 				E225001D2810F0AB004F2A75 /* ContentModel.swift in Sources */,
+				E24909B52810F54300698C1A /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Learning App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LearningApp/Preview Content\"";
 				DEVELOPMENT_TEAM = QK56PV6YS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -339,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Learning App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LearningApp/Preview Content\"";
 				DEVELOPMENT_TEAM = QK56PV6YS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

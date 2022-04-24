@@ -64,11 +64,3 @@ struct ContentDetailView: View {
         .navigationTitle(lesson?.title ?? "")
     }
 }
-
-/*
- struct ContentDetailView_Previews: PreviewProvider {
- static var previews: some View {
- ContentDetailView()
- }
- }
- */

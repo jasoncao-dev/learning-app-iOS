@@ -11,6 +11,7 @@
 		E2205EFE281244200007B110 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2205EFD281244200007B110 /* Constants.swift */; };
 		E2205F002815A3EC0007B110 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2205EFF2815A3EC0007B110 /* CodeTextView.swift */; };
 		E2205F022815F8F90007B110 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2205F012815F8F90007B110 /* RectangleCard.swift */; };
+		E2205F042815FBAF0007B110 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2205F032815FBAF0007B110 /* TestView.swift */; };
 		E225000A2810EFF1004F2A75 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22500092810EFF1004F2A75 /* LearningApp.swift */; };
 		E225000C2810EFF1004F2A75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225000B2810EFF1004F2A75 /* HomeView.swift */; };
 		E225000E2810EFF4004F2A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E225000D2810EFF4004F2A75 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		E2205EFD281244200007B110 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E2205EFF2815A3EC0007B110 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		E2205F012815F8F90007B110 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		E2205F032815FBAF0007B110 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		E22500062810EFF1004F2A75 /* Learning App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22500092810EFF1004F2A75 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		E225000B2810EFF1004F2A75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				E2205EFB28123FBA0007B110 /* ContentDetailView.swift */,
 				E2205EFF2815A3EC0007B110 /* CodeTextView.swift */,
 				E2205F012815F8F90007B110 /* RectangleCard.swift */,
+				E2205F032815FBAF0007B110 /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2205F042815FBAF0007B110 /* TestView.swift in Sources */,
 				E225000C2810EFF1004F2A75 /* HomeView.swift in Sources */,
 				E24909B72811000C00698C1A /* HomeViewRow.swift in Sources */,
 				E24909B92811042500698C1A /* ContentView.swift in Sources */,

@@ -113,7 +113,7 @@ struct TestView: View {
             .navigationTitle("\(model.currentModule?.category ?? "") Test")
             .tint(.black)
         } else {
-            Text("No Questions")
+            TestResultView(numCorrect: numCorrect)
         }
     }
     

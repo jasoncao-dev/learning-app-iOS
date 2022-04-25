@@ -109,7 +109,11 @@ class ContentModel: ObservableObject {
                 // Decode
                 let modules = try decoder.decode([Module].self, from: data!)
                 
-                self.modules += modules
+                
+                // Assign mainthread
+                DispatchQueue.main.async {
+                    self.modules += modules
+                }
             } catch {
                 // Couldn't parse json
                 print("Error: Could not parse json from networking")

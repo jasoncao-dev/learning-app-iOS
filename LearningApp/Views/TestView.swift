@@ -20,12 +20,10 @@ struct TestView: View {
             VStack(alignment: .leading) {
                 // Question number
                 Text("Question \(model.currentQuestionIndex + 1) of \(model.currentModule?.test.questions.count ?? 0)")
-                    .padding(.leading, 20.0)
+                    .padding([.leading, .top], 20.0)
+                    .font(.title3)
                 
                 // Question
-                /*
-                 Text("Question \(model.currentQuestionIndex + 1): \(model.currentQuestion!.content)")
-                 */
                 CodeTextView()
                     .padding(.horizontal, 20.0)
                 
@@ -80,19 +78,30 @@ struct TestView: View {
                 Button(
                     action: {
                         
-                        // Change submitted to true
-                        submitted = true
-                        
-                        // Check the answer and increment the counter if correct
-                        if selectedAnswerIndex == model.currentQuestion!.correctIndex {
-                            numCorrect += 1
+                        // Check if answer has been submitted
+                        if submitted == true {
+                            // Answer has already been submitted, move to the next questions
+                            model.nextQuestion()
+                            
+                            // Reset properties
+                            submitted = false
+                            selectedAnswerIndex = nil
+                        } else {
+                            // Submit the answer
+                            // Change submitted to true
+                            submitted = true
+                            
+                            // Check the answer and increment the counter if correct
+                            if selectedAnswerIndex == model.currentQuestion!.correctIndex {
+                                numCorrect += 1
+                            }
                         }
                     },
                     label: {
                     ZStack {
                         RectangleCard(color: .green)
                             .frame(height: 48.0)
-                        Text("Submit")
+                        Text(buttonText)
                             .bold()
                             .foregroundColor(.white)
                     }
@@ -106,5 +115,9 @@ struct TestView: View {
         } else {
             Text("No Questions")
         }
+    }
+    
+    var buttonText: String {
+        return submitted ? model.hasNextQuestion() ? "Next" : "Finished" : "Submit"
     }
 }

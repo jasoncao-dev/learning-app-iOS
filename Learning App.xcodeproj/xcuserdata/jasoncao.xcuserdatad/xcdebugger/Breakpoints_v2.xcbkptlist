@@ -14,8 +14,8 @@
             filePath = "LearningApp/ViewModels/ContentModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "beginTest(_:)"
             landmarkType = "7">
          </BreakpointContent>

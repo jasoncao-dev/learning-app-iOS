@@ -49,6 +49,7 @@ struct HomeView: View {
                                     })
                             }
                             .tint(.black)
+                            .padding(.bottom, 10.0)
                         }
                     }
                     .padding()
@@ -57,6 +58,7 @@ struct HomeView: View {
             .navigationTitle("Get Started")
         }
         .navigationViewStyle(.stack)
+        .preferredColorScheme(.light)
     }
 }
 
